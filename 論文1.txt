@@ -1,0 +1,147 @@
+﻿臺北城市科技大學資訊管理系
+１０１學年度專題製作報告
+
+學生證照管理系統
+指導老師:林慶昌 老師
+
+    班級：四資三篤
+學生：學號：49951363姓名：陳信華
+　　　學號：49951308姓名：曹詩敏
+　　　學號：49951329姓名：陳廉忠
+　　　學號：49951331姓名：黃柏崴
+　　　學號：49951362姓名：林揚評
+
+
+中華民國102年5月
+
+ 
+
+
+
+
+
+101
+學
+年
+度
+
+學
+生
+證
+照
+管
+理
+系
+統
+
+資
+訊
+管
+理
+系
+
+四
+技
+部
+
+
+ 
+臺北城市科技大學資訊管理系
+101學年度專題製作
+     班級：四資三篤
+     學生：學號：49951363 姓名：陳信華
+           學號：49951308 姓名：曹詩敏
+         　學號：49951329 姓名：陳廉忠
+         　學號：49951331 姓名：黃柏崴
+         　學號：49951362 姓名：林揚評
+所撰之專題製作報告:
+   學生證照管理系統 經本委員會審查通過
+指導老師：__________
+審查委員：__________
+審查委員：__________
+審查委員：__________
+系主任  ：__________
+ 
+中華民國 102年5 月
+使用同意書
+茲同意吾等所製之專題製作和其報告：
+學生證照管理系統
+提供給臺北城市科技大學資管系作為資料參考、
+作品展示暨繼續延伸研究之用。
+     學生：
+         學號：_________ 學生：_________
+         學號：_________ 學生：_________
+         學號：_________ 學生：_________
+         學號：_________ 學生：_________ 
+         學號：_________ 學生：_________
+
+     指導老師：_________ 老師
+
+中華民國102年5月
+ 
+摘要
+
+　　雲端運算是一項新興的運算模型，可讓使用者隨時隨地透過任何連線裝置存取其應用程式。透過以使用者為主的介面，使用者可一目了然由雲端基礎架構所支援的應用程式。應用程式位在極富彈性的資料中心內，該處可動態提供並共用運算資源，以達到顯著的快速運算。拜功能強大的服務管理平台之賜，為雲端技術增加更多 資訊科技資源所需的管理成本，應該會遠低於與其他基礎架構相關的管理成本。
+　　是什麼驅使人們使用雲端運算，原因有很多，其中包括智慧型行動裝置、高速網路連線，以及需要高密度運算與資料密集的 Web、Html 應用程式等產品的興起。
+因此，資訊科技產業的廠商紛紛投入各種雲端運算功能的研發，而企業界客戶也開始對某些層面的雲端軟體感興趣，而想要以其作為服務的主要程序與下一代的分散式運算。在虛擬化空間的領域上享有領先地位，近期更推出了支援動態基礎架構的資料中心。此版本結合了以 Web 為中心的雲端運算模型，以及最新的企業資料中心。它能透過極富彈性、多元且已虛擬化的基礎架構，為各種工作量提供以要求為導向並可動態配置的運算資源。不僅如此，它還會就安全性、資料完整性、復原與交易處理各方面進行最佳化。由於對企業資料中心與雲端運算方面都具有豐富的經驗，因此能以優異的表現，準備好為客戶提供能達到此目標的最佳解決方案。具體而言，已針對大規模的資料中心定義出雲端運算的執行架構，並持續進行強化，使其能夠執行主控各種應用程式所需的主要功能。此架構目前包括將伺服器、網路、儲存裝置、作業系統與中介軟體等項目中既複雜又耗費時間的供應程序自動化。此外，它還支援高度資料密集的工作量，並支援復原與安全方面的需求。本文將說明高階雲端運算基礎架構服務的結構與基礎技術要項，例如虛擬化、自動化、自助式入口網站、監視與容量規劃。另外，它還從以前到現在某些以此方式來建置的資料中心，討論其範例及價值論點。 
+Abstract
+
+　　The high in the clouds operation is an emerging operation model,may let the user penetrate any segment installment to deposit and withdraw its application formula anytime and anywhere.The penetration by the user primarily interface,the user may be clear at a glance the application formula which supports by the high in the clouds foundation construction.The application formula position in the extremely rich elastic material center,this place may dynamic provide and use in common the operation resources,achieves the remarkable fast operation.Does obeisance the function formidable service to manage bestowing of the platform, increases the management cost for the high in the clouds technology which the more information science and technology resources need, should be able to be lower than far with other foundation construction correlation management cost.
+
+　　Is any urges the people to use the high in the clouds operation, the reason has very many, including the wisdom running gear,the high speed network segment, as well as needs the high density operation and material crowded Web,product and so on Html application formula starting.
+
+    Therefore, the information science and technology industry manufacturer invests each kind of high in the clouds operation function in abundance the research and development,but the business community customer also starts to certain stratification plane high in the clouds software to be interested, but wants by it to take the service the main program and the next generation disperser -like operation.Enjoys the leading status in the virtualization space domain,has in the near future promoted the support dynamic foundation construction material center.
+   
+   This edition unified take Web as the central high in the clouds operation model,as well as newest enterprise material center.It can penetrate the extremely rich elasticity,multi-dimensional also already the virtualization foundation construction,provides for each kind of work load take requests as the guidance and may the dynamic disposition operation resources.Not only that, it also can on the security,the material integrity,the restoration and the transaction processes various aspects to carry on the optimization. Because all has the rich experience to the enterprise material center and the high in the clouds operation aspect,therefore can take the outstanding performance, prepare to provide can achieve this goal as the customer the best solution.Says specifically,has defined the high in the clouds operation in view of the large-scale material center the execution construction, and continues to carry on the strengthening,causes main function which its can  the execution master control each kind of application formula need.This construction at present including projects in and so on server, network,storage installment,work systematic and intermediary software both complex and consumes the time the supply automatic programming.In addition, it also supports highly the material crowded work load, and supports the restoration and the security aspect demand.This article will show the higher order high in the clouds operation foundation construction service the structure and the foundation technology important item,for example virtualization, automated, self-service type entrance website, surveillance and capacity planning.Moreover,it also from before to the present certain the material center which establishes by this way, discusses its model and the value argument.
+
+ 
+致     謝
+
+   首先誠摯的感謝指導教授林慶昌博士，老師細心的教導使我們得以一窺雲端技術領域的深奧，不時的討論並指點我正確的方向，使我們在這些年中獲益匪淺。老師對學問的嚴謹更是我輩學習的典範。
+　　本論文的完成另外亦得感謝臺北城市科技大學資管系陳尚蓉系主任。因為有你的體諒及幫忙，使得本論文能夠更完整而嚴謹。 
+　　四年裡的日子，再807教室裡共同的生活點滴，學術上的討論、言不及義的閒扯、讓人又愛又怕的宵夜、趕作業的革命情感、因為睡太晚而遮遮掩掩偷偷摸摸進807教室...，感謝眾位學長姐、同學、學弟妹的共同砥礪，你/妳們的陪伴讓四年的研究生活變得絢麗多彩。感謝全系所的老師、學長姐、同學、學弟妹們不厭其煩的指出我研究中的缺失，且總能在我們迷惘時為我們解惑，也感謝臺北城市科技大學資管系全體四技生的幫忙，恭喜我們順利走過這四年。807教室資三忠同學們當然也不能忘記，你/妳們的幫忙及搞笑我銘感在心。　林慶昌博士在背後的默默支持更是我前進的動力，林慶昌教授的體諒、包容，相信這四年的生活將是很不一樣的光景。　
+感謝爸媽無時無刻的照料，因為你們的期待，讓我不敢倦怠，深怕辜負你們的期望，就算是放棄的念頭不斷在心裡湧現，為了讓你們為我感到驕傲，就算是艱辛的道路，我也會勇敢的一路走下去，因為這是唯一可以報答你們的方式。
+最後要感謝的是我身旁的每位好友，不管我遭遇什麼樣的挫折，總是站在我的身邊，分享我的每一分歡喜與每一分憂愁，不管是喜是愁，身邊總是希望有妳在我身旁，與我共同渡過。
+要感謝的人實在太多，每位知心的朋友，都是鼓勵我積極向前的動力，感謝你們，願將這份榮耀與每位分享，感謝！
+ 
+目錄
+第一章、緒論………………………………………………1
+第一節、研究背景及動機.....................................1
+第二節、研究目的...........................................1
+第三節、研究架構...........................................2
+第四節、研究對象...........................................2
+第二章、文獻回顧…………………………………………3
+第一節、相關技術...........................................3
+第二節、專案特性...........................................3
+第三節、關鍵成功因素之定義.................................5
+第四節、成功個案研討.......................................6
+第三章、研究方法…………………………………………30
+第一節、研究方法論.........................................7
+第二節、研究設計...........................................8
+第三節、研究設備...........................................13
+第四章、實作及研究結果..........................37
+第一節、實作過程...........................................37
+(實作過程包含:初始階段、詳述階段、建構階段、轉換階段)
+第二節、研究成果...........................................47
+第五章、結論與未來研究…………………………………50
+第一節、研究貢獻...........................................50
+第二節、結論...............................................53
+第三節、未來研究...........................................56
+第四節、研究心得...........................................57
+第六章、參考文獻…………………………………………60
+ 
+附錄
+附表、………………………………………………………A1  
+附圖、………………………………………………………A10 
+問卷、………………………………………………………A25 
+電腦程式、…………………………………………………A30 
+安裝說明、…………………………………………………A45 
+圖目錄
+圖2.1　　國立屏東科技大學技術證照系統登入介面..................6
+圖3.1  　EER架構圖.............................................8
+圖3.2.1　學生證照管理系統登入介面圖............................12
+圖3.2.2  學生證照管理系統使用介面圖............................12
+表目錄
+表1.1　研究架構圖...........................................2
+表3.1　系統開發環境平台及工具...............................13
+
